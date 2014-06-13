@@ -3,7 +3,7 @@ body,h1,h2,h3,p,ul,ol,li{
 	padding: 0;
 }
 body{
-	background-color: rgba(63, 233, 196, 1);
+	background-color: rgba(49, 57, 89, 1);
 }
 div{
 	clear: both;
@@ -12,19 +12,20 @@ div div, header, footer{
 	clear: both;
 }
 h1 a{
-	background: url("jblogo5.png") no-repeat;	
-	height: 400px;
-	width: 400px;
+	background: url("jblogo7.png") no-repeat;	
+	height: 300px;
+	width: 300px;
 	display: inline-block;
 	text-indent: -9999px;
 	background-size: 100%;
-	margin: 20px ;
+	margin: px;
 	 animation: logoAnimation 2s;
  -webkit-animation: logoAnimation 0.5s;
 }
 h2{
 	color: white;
 }
+/*
 #shadow{
 	height: 16px;
 	background-color: rgba(0, 0, 0, 0.43);
@@ -32,8 +33,9 @@ h2{
 	margin-top: 24px;
 	width: 300px;
 }
+*/
 #MainContent article{
-	background-color: rgba(5, 179, 170, 1);	
+	background-color: rgba(49, 57, 89, 1);	
 	min-height: 400px;
 	border-radius: 15px;
 }
@@ -45,9 +47,10 @@ h2{
 	margin: 0;
 }
 #centercontent{
-	width: 40%;
+	width: 60%;
 	height: 1000px;
 }
+/*
 #leftadd{
 	float: left;
 	width: 20%;
@@ -56,36 +59,45 @@ h2{
 	height: 600px;
 	background-repeat: no-repeat;
 }
+*/
 #rightadd{	
 	float: right;
 	width: 20%;
 	height: 600px;
 }
 #pics{
-	width: 90%;
-	border-radius: 10px;
+	width: 60%;
+	border-radius: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #sitelinks:hover{
 	color: 
 }
 #lol7{
-	background-color: rgba(5, 179, 170, 1);
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
+	background-color: rgba(94, 139, 237, 1);
+	width: 60%;
+	max-width: 600px;
+	height: 50px;
+	border-radius: 15px;
 	margin-bottom: 50px;
 	margin-top: 50px;
+	float: bottom;
 }
-#lol8{
-	background-color: rgba(235, 94, 55, 1);
-	width: 160px;
-	height: 160px;
-	border-radius: 100px;
-	margin-top: 20px;	
+
+#MainContent{
+	max-width: 1000px;
+	background-color: rgba(49, 57, 89, 1);
+	border-radius: 15px;
+}
+#MainContent, footer{
+	width: 96%;
+	margin: 2% 2% 0;
+	min-height: 100px;
 }
 p{
 	position: relative;
-	width: 90%;
+	width: 80%;
 	color: white;
 	max-height: 50%;
 }
@@ -95,14 +107,6 @@ header{
 	position: relative;
 	z-index: 5;
 
-}
-#MainContent{
-	max-width: 1000px;
-}
-#MainContent, footer{
-	width: 96%;
-	margin: 2% 2% 0;
-	min-height: 100px;
 }
 footer{ 
 	clear: both;
@@ -122,16 +126,17 @@ nav ul li{
  position: relative;
 }
 nav ul li a{
- background-color: rgba(5, 40, 170, 1);
- color: white;
+ background-color: rgba(94, 139, 237, 1);
+ color: rgba(49, 57, 89, 1);
  padding: 10px 20px;
  border-left: 2px solid;
  border-left: none;
  border-radius: 10px;
  text-decoration: none;
+ font-style: comicsans ms;
 }
 nav ul li a:hover{
- background-color:rgba(235, 94, 55, 1);
+ background-color:rgba(213, 82, 7, 1);
  color: #fff;
 }
 /* Sub Level Nav */
@@ -154,6 +159,41 @@ nav ul li ul a{
 	text-align: center;
 	width: 40px;
 	text-indent: 0;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 650px){
+	#Container{
+		width: 100%;
+	}
+	#MainContent article{
+		width: 97.2%;
+	}
+	nav ul{
+		width: 100%;
+	}
+	nav ul li{
+		float: none;
+		width: 100%;
+	}
+	nav ul li a{
+		width: 86%;
+		text-align: center;
+	}
+	nav ul li ul{
+		top: 0;
+		position: absolute;
+	}
+	nav ul li ul li{
+		width: 86%;
+	}
+	nav ul li:hover ul{
+		position: relative;
+	}
+	#leftadd{
+		display: none;
+	}
 }
 
 /* Animations */
