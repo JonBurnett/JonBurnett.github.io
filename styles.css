@@ -109,6 +109,7 @@ h2{
 nav{	
 	width: 400px;
 	margin-left: 40px;
+	background-color: green;
 }
 nav ul li{
 	float: left;
@@ -159,10 +160,10 @@ nav ul li ul li a{
 
 @media screen and (max-width: 750px){
 	#Container{
-		width: 100%;
+		width: 100%;	
 	}
 	#Content{
-		width: 95%;
+		width: 100%;
 		margin-top: -120px;
 	}
 	#pics{
@@ -175,7 +176,7 @@ nav ul li ul li a{
 		height: 90px
 	}
 	.cycle-slideshow{
-		width: 95%;
+		width: 100%;
 	}
 	p{
 		width: 95%;
@@ -186,7 +187,6 @@ nav ul li ul li a{
 	}
 	nav{
 		margin-left: 20px;
-
 	}
 }
 @media only screen and (max-device-width: 320px) {
@@ -194,11 +194,11 @@ nav ul li ul li a{
 		width: 100%;
 	}
 	#Content{
-		width: 95%;
+		width: 100%;
 		margin-top: -120px;
 	}
 	#pics{
-		max-width: 300px;
+		max-width: 350px;
 	}
 	#logo{
 		height: 90px
@@ -207,7 +207,7 @@ nav ul li ul li a{
 		width: 95%;
 	}
 	p{
-		width: 95%;
+		width: 98%;
 	}
 	header{
 		width: 100%;
