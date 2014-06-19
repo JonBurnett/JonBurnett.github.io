@@ -27,7 +27,6 @@ p{
 }
 h1{
 	padding-top: 28px;
-	font-family: Gotham;
 	background-color: blue;
 	position: fixed;
 	width: 48%;
@@ -43,6 +42,7 @@ h2{
 h3{
 	padding-top: 100px;
 	font-size: 40px;
+	font-family: "Cambria";
 }
 #logo{
 	height: 150px;
@@ -77,7 +77,7 @@ h3{
 	border-radius: 0 0 10px 10px;
 	margin-top: -50px;
 	margin-bottom: 30px;
-	min-height: 600px;
+	min-height: 700px;
 }
 #topstuff{
 	width: 60%;
@@ -209,14 +209,14 @@ nav ul li ul li a{
 }
 @media only screen and (max-device-width: 320px) {
 	#Container{
-		width: 320px;
+		width: 100%;
 	}
 	#Content{
-		width: 320px;
+		width: 99%;
 		margin-top: -120px;
 	}
 	#pics{
-		max-width: 350px;
+		max-width: 95%;
 	}
 	#logo{
 		
