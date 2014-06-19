@@ -208,10 +208,10 @@ nav ul li ul li a{
 }
 @media only screen and (max-device-width: 320px) {
 	#Container{
-		width: 100%;
+		width: 320px;
 	}
 	#Content{
-		width: 100%;
+		width: 320px;
 		margin-top: -120px;
 	}
 	#pics{
