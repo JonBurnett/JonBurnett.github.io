@@ -220,14 +220,14 @@ nav ul li ul li a{
 		max-width: 95%;
 	}
 	#logo{
-		
+		z-index: 203;
 	}
 	.cycle-slideshow{
 		width: 95%;
 	}
 	p{
 		width: 98%;
-		font-size: 34px;
+		font-size: 50px;
 	}
 	header{
 		width: 100%;
