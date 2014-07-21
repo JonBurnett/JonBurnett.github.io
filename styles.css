@@ -45,6 +45,7 @@ h3{
 	font-size: 20px;
 	font-family: "Rockwell";
 	text-indent: -9999px;
+	margin-bottom: 10px;
 }
 h4{
 	color: rgba(47, 48, 50, 1);
@@ -65,8 +66,8 @@ h4{
 	text-indent: -9999px;
 }
 #pics{
-	max-width: 600px;
-	width: 85%;
+	max-width: 750px;
+	width: 95%;
     -webkit-box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.75);
 	box-shadow: 0px 1px 15px 0px rgba(50, 50, 50, 0.75);
@@ -80,7 +81,7 @@ h4{
 	width: 85%;
 }
 #Container{
-	background-color: rgba(236, 240, 241,0.8);
+	background-color: rgba(236, 240, 241,1.0);
 	width: 60%;
 	max-width: 1000px;
 	border-radius: px;
@@ -158,6 +159,9 @@ h4{
 	p{
 		width: 95%;
 	}
+	h4{
+		font-size: 40px;
+	}
 }
 @media screen and (max-width: 500px){
 	#Container{
@@ -182,6 +186,9 @@ h4{
 	p{
 		width: 95%;
 	}
+	h4{
+		font-size: 40px;
+	}
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
@@ -195,14 +202,17 @@ h4{
 		max-width: 50%;
 	}
 	#logo{
-		width: 80%;
-		height: 120px;
+		width: 85%;
+		max-height: 120px;
 	}
 	.cycle-slideshow{
 		width: 100%;
 	}
 	p{
 		width: 95%;
+	}
+	h4{
+		font-size: 40px;
 	}
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
@@ -216,14 +226,17 @@ h4{
 		max-width: 300px;
 	}
 	#logo{
-		width: 80%;
-		height: 120px;
+		width: 95%;
+		max-height: 140px;
 	}
 	.cycle-slideshow{
 		width: 100%;
 	}
 	p{
 		width: 95%;
+	}
+	h4{
+		font-size: 40px;
 	}
 }
 
