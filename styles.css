@@ -92,7 +92,6 @@ nav ul li{
  position: relative;
 }
 nav ul li a{
- background-color: ;
  color: white;
  padding: 10px 20px;
  border-left: 2px solid;
@@ -112,10 +111,47 @@ nav ul li a:hover{
 
 }
 @media screen and (max-width: 900px){
-
+header{
+	width: 100%;
 }
-@media screen and (max-width: 500px){
-
+footer{
+	width: 100%;
+}
+#Content{
+	width: 100%;
+}
+}
+@media screen and (max-width: 580px){
+nav ul li{
+ 	float: none;
+ 	list-style: none;
+ 	position: relative;
+ 	background-color: #3498db;
+}
+nav{
+	width: 95%;
+}
+nav ul li{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav ul li a:hover{
+ border-radius: 0;
+ width: 100%;
+}
+nav ul :hover{
+	background-color: #6dcff6;
+}
+#navwrap{
+	background-color: #2980b9;
+	width: 100%;
+}
+#MainContent{
+	width: 95%;
+	margin-top: 130px;
+}
 }
 
 
