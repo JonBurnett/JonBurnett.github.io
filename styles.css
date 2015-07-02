@@ -18,7 +18,7 @@ footer{
 	background-color: #3d3d3d;
 }
 p{
-	color: #0f111a;
+	color: #4d505b;
 	font-size: 50px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -68,6 +68,9 @@ h5{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 20px;
 	margin-top: 10px;
+}
+nav{
+	list-style: ;
 }
 #Content{
 	width: 100%;
