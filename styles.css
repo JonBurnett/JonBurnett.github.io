@@ -1,23 +1,24 @@
-body,h1,h2,h3,h4,h5,p,ul,ol,li{
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li{
 	margin: 0;
 	padding: 0;
 }
 body{
-	background: url(./pics/shia.gif) no-repeat center center; 
+	background: url(/pics/shia.gif) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
  	background-size: cover;
+ 	background-color: #3d3d3d;
 }
 header{
 	width: 100%;
 	height: 50px;
-	background-color: rgba(59, 59, 59, 0.5);
+	background-color: #3498db;
 }
 footer{
 	width: 100%;
 	height: 250px;
-	background-color: rgba(59, 59, 59, 0.5);
+	background-color: #3d3d3d;
 }
 h1{
 	font-size: 30px;
@@ -26,39 +27,72 @@ h1{
 	width: 200px;
 	float: left;
 	margin-top: 5px;
+	-webkit-animation: fade 1.5s;
+	-webkit-animation-fill-mode: both;
 }
 h2{
 	color: white;
-	font-size: 30px;
+	padding-top: 180px;
+	max-width: 900px;
+	font-size: 150px;
 	font-family: 'Muli', sans-serif;
+	-webkit-animation: fade 3.5s;
+	-webkit-animation-fill-mode: both;
 }
 h3{
 	color: rgba(219, 219, 219, 1);
 	font-family: 'Muli', sans-serif;
     font-size: 95px;
     margin-top: 40px;
+   	-webkit-animation: fade 4.5s;
+	-webkit-animation-fill-mode: both;
 }
 h4{
 	color: white;
-	padding-top: 30px;
+	font-size: 25px;
+	padding-top: 50px;
 	font-family: 'Muli', sans-serif;
+	-webkit-animation: fade 3.5s;
+	-webkit-animation-fill-mode: both;
 }
 h5{
 	width: 100px;
 	height: 320px;
 }
+h6{
+	font-size: 40px;
+	margin-top: -85px;
+	margin-left: 10px;
+	font-family: 'Muli', sans-serif;
+	text-decoration: none;
+	color: white;
+}
 p{
 	width: 95%;
-	max-width: 500px;
-	font-size: 25px;
-	margin-top: 20px;
-	color: white;
+	max-width: 540px;
+	font-size: 35px;
+	margin-top: 150px;
+	color: #3d3d3d;
 	font-family: 'Muli', sans-serif;
+	float: right;
+	-webkit-animation: fade 2.5s;
+	-webkit-animation-fill-mode: both;
 }
 #Content{
 	width: 100%;
-	min-height: 900px;
-	background-color: rgba(59, 59, 59, 0.5);
+	max-width: px;
+	min-height: 1400px;
+	background-color: white;
+}
+#topContent{
+	width: 100%;
+	height: 800px;
+	background-color: #3498db;
+}
+#midContent{
+	width: 100%;
+	max-width: 900px;
+	height: 600px;
 }
 #weblogo{
 	width: 600px;
@@ -71,6 +105,47 @@ p{
 	border-solid-top: 5px;
 	border-solid-bottom: 5px;
 }
+#spinwrap{
+	padding-top: px;
+	width: 100px;
+	height: 80px;
+	margin-left: 20px;
+	background-color: ;
+	float: left;
+	-webkit-animation: fade 3.5s;
+	-webkit-animation-fill-mode: both;
+}
+#spin{
+	width: 80px;
+	margin-bottom: -100px;
+	margin-left: 10px;
+}
+#spin1{
+	margin-bottom: px;
+	margin-left: 0px;
+	width: 110px;
+}
+#jonPic{
+	width: 300px;
+	float: left;
+	margin-top: 120px;
+	-webkit-animation: fade 2.5s;
+	-webkit-animation-fill-mode: both;
+}
+.rotating {
+  -webkit-animation: rotating 5s linear infinite;
+  -moz-animation: rotating 5s linear infinite;
+  -ms-animation: rotating 5s linear infinite;
+  -o-animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;
+}
+.rotating2 {
+  -webkit-animation: rotating 8s linear infinite;
+  -moz-animation: rotating 8s linear infinite;
+  -ms-animation: rotating 8s linear infinite;
+  -o-animation: rotating 8s linear infinite;
+  animation: rotating 8s linear infinite;
+}
 /* nav stuff */
 nav{
  margin: 18px;
@@ -82,21 +157,21 @@ nav ul li{
  list-style: none;
  position: relative;
 }
-nav ul li:hover{
-
-}
 nav ul li a{
- color: #cfcfcf;
+ color: white;
  padding: 10px 20px;
  border-left: 2px solid;
  border-left: none;
-font-family: 'Roboto Condensed', sans-serif;
+ font-size: 20px;
+ font-family: 'Muli', sans-serif;
  text-decoration: none;
+ -webkit-animation: fade 2.5s;
+ -webkit-animation-fill-mode: both;
 }
 nav ul li a:hover{
  background-color: rgba(219, 219, 219, 1);
  color: black;
- -webkit-animation: fade 0.8s;
+ -webkit-animation: fade 4s;
  -webkit-animation-fill-mode: both;
 }
 @-webkit-keyframes fade {
@@ -108,13 +183,74 @@ nav ul li a:hover{
         opacity: 1;
     }
 }
-
-@media screen and (max-width: 750px){
-
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 850px){
+h2{
+	color: white;
+	padding-top: 180px;
+	max-width: 500px;
+	font-size: 80px;
+	font-family: 'Muli', sans-serif;
+	-webkit-animation: fade 0.8s;
+	-webkit-animation-fill-mode: both;
+}
+h3{
+	font-size: 70px;
+}
+p{
+	float: none;
+	margin-top: 50px;
+}
+#jonPic{
+	float: none;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+#topContent{
+	height: 600px;
+}
+#midContent{
+	height: 920px;
+}
 }
 @media screen and (max-width: 600px){
-h3{
+h2{
 	font-size: 60px;
+}
+h3{
+	font-size: 50px;
+
 }
 #weblogo{
 	width: 380px;
