@@ -3,39 +3,45 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,li{
 	padding: 0;
 }
 body{
-	background: url(/pics/shia.gif) no-repeat center center; 
+	background: url(.pics/road1.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
  	background-size: cover;
- 	background-color: #3d3d3d;
+ 	background-color: ;
 }
 header{
 	width: 100%;
-	height: 50px;
-	background-color: #3498db;
+	height: 100px;
+	position: fixed;
+	border-bottom-color: #3d3d3d;
+	background-color: #7cb2e1;
+	z-index: 1;
 }
 footer{
 	width: 100%;
 	height: 250px;
-	background-color: #3d3d3d;
+	background-color: #7cb2e1;
 }
 h1{
 	font-size: 30px;
 	font-family: 'Muli', sans-serif;
 	color: white;
-	width: 200px;
+	background-color: blue;
 	float: left;
 	margin-top: 5px;
+	margin-left: 20px;
 	-webkit-animation: fade 1.5s;
 	-webkit-animation-fill-mode: both;
 }
 h2{
 	color: white;
-	padding-top: 180px;
-	max-width: 900px;
-	font-size: 150px;
+	font-size: 20px;
 	font-family: 'Muli', sans-serif;
+	float: left;
+	margin-top: 50px;
+	margin-left: -160px;
+	background-color: red;
 	-webkit-animation: fade 3.5s;
 	-webkit-animation-fill-mode: both;
 }
@@ -48,7 +54,7 @@ h3{
 	-webkit-animation-fill-mode: both;
 }
 h4{
-	color: white;
+	color: rgba(219, 219, 219, 1);
 	font-size: 25px;
 	padding-top: 50px;
 	font-family: 'Muli', sans-serif;
@@ -86,10 +92,22 @@ p{
 }
 #topContent{
 	width: 100%;
-	height: 800px;
-	background-color: #3498db;
+	max-width: px;
+	padding-top: 100px;
+	height: 700px;
+	background: url(./pics/snowyMountain.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 #midContent{
+	width: 100%;
+	max-width: 900px;
+	padding-top: 100px;
+	height: 655px;
+	background-color: rgba(219, 219, 219, 1);
+}
+#lowerContent{
 	width: 100%;
 	max-width: 900px;
 	height: 600px;
@@ -132,6 +150,10 @@ p{
 	-webkit-animation: fade 2.5s;
 	-webkit-animation-fill-mode: both;
 }
+#jbLogo{
+	width: 200px;
+	margin-top: 2px;
+}
 .rotating {
   -webkit-animation: rotating 5s linear infinite;
   -moz-animation: rotating 5s linear infinite;
@@ -145,6 +167,24 @@ p{
   -ms-animation: rotating 8s linear infinite;
   -o-animation: rotating 8s linear infinite;
   animation: rotating 8s linear infinite;
+}
+#jbCenter{
+	max-width: 420px;
+	margin-left: 0px;
+	margin-top: 0px;
+	-webkit-animation: fade 2.5s;
+	-webkit-animation-fill-mode: both;
+}
+#jbSpin{
+	max-width: 600px;
+	margin-left: px;
+	margin-top: -500px;
+	float: left;
+}
+#spinWrapMain{
+	max-width: 600px;
+	max-height: 600px;
+	padding-top: 150px;
 }
 /* nav stuff */
 nav{
@@ -234,16 +274,14 @@ p{
 }
 #jonPic{
 	float: none;
-	margin-left: 0px;
-	margin-top: 50px;
 	width: 350px;
-	width: ;
 }
 #topContent{
-	height: 600px;
+	height: 400px;
 }
 #midContent{
 	height: 920px;
+	padding-top: 0px;
 }
 }
 @media screen and (max-width: 600px){
