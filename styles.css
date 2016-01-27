@@ -3,35 +3,43 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,li{
 	padding: 0;
 }
 body{
-	background: url(.pics/road1.jpg) no-repeat center center; 
+	background: url(./pics/hdbackground4.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
  	background-size: cover;
- 	background-color: ;
+ 	background-color: rgba(56, 56, 56, 1);
 }
 header{
 	width: 100%;
-	height: 100px;
-	position: fixed;
+	max-width: 1000px;
+	height: 200px;
+	padding-top: 20px;
+	padding-bottom: 50px;
 	border-bottom-color: #3d3d3d;
 	background-color: #7cb2e1;
 	z-index: 1;
+	background-color: rgba(71, 71, 71, 0.6);
+	-moz-box-shadow: 1px 3px px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 3px px rgba(0,0,0,.5);
+	box-shadow: 1px 3px px rgba(0,0,0,.5);
 }
 footer{
 	width: 100%;
+	max-width: 1000px;
 	height: 250px;
-	background-color: #7cb2e1;
+	background-color: rgba(71, 71, 71, 0.6);
+	-moz-box-shadow: 1px 2px px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 2px px rgba(0,0,0,.5);
+	box-shadow: 1px 2px px rgba(0,0,0,.5);
 }
 h1{
-	font-size: 30px;
-	font-family: 'Muli', sans-serif;
-	color: white;
-	background-color: blue;
-	float: left;
-	margin-top: 5px;
-	margin-left: 20px;
-	-webkit-animation: fade 1.5s;
+	font-size: 90px;
+	font-family: 'Droid Sans', sans-serif;
+	color: rgba(219, 219, 219, 1);
+	-webkit-text-stroke-width: px;
+	-webkit-text-stroke-color: rgba(64, 64, 64, 1);
+	-webkit-animation: fade 3s;
 	-webkit-animation-fill-mode: both;
 }
 h2{
@@ -42,7 +50,7 @@ h2{
 	margin-top: 50px;
 	margin-left: -160px;
 	background-color: red;
-	-webkit-animation: fade 3.5s;
+	-webkit-animation: fade 3s;
 	-webkit-animation-fill-mode: both;
 }
 h3{
@@ -50,7 +58,7 @@ h3{
 	font-family: 'Muli', sans-serif;
     font-size: 95px;
     margin-top: 40px;
-   	-webkit-animation: fade 4.5s;
+   	-webkit-animation: fade 3s;
 	-webkit-animation-fill-mode: both;
 }
 h4{
@@ -58,139 +66,71 @@ h4{
 	font-size: 25px;
 	padding-top: 50px;
 	font-family: 'Muli', sans-serif;
-	-webkit-animation: fade 3.5s;
+	-webkit-animation: fade 3s;
 	-webkit-animation-fill-mode: both;
-}
-h5{
-	width: 100px;
-	height: 320px;
-}
-h6{
-	font-size: 40px;
-	margin-top: -85px;
-	margin-left: 10px;
-	font-family: 'Muli', sans-serif;
-	text-decoration: none;
-	color: white;
 }
 p{
 	width: 95%;
 	max-width: 540px;
-	font-size: 35px;
+	font-size: 40px;
 	margin-top: 150px;
-	color: #3d3d3d;
+	color: rgba(219, 219, 219, 1);
 	font-family: 'Muli', sans-serif;
 	float: right;
-	-webkit-animation: fade 2.5s;
+	font-weight: 700;
+	-webkit-animation: fade 3s;
 	-webkit-animation-fill-mode: both;
 }
 #Content{
 	width: 100%;
-	max-width: px;
-	min-height: 1400px;
-	background-color: white;
-}
-#topContent{
-	width: 100%;
-	max-width: px;
-	padding-top: 100px;
-	height: 700px;
-	background: url(./pics/snowyMountain.jpg) no-repeat center center; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	max-width: 1000px;
+	min-height: 1000px;
+	padding-top: 50px;
+	background-color: rgba(71, 71, 71, 0.6);
+	-moz-box-shadow: 1px 2px px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 2px px rgba(0,0,0,.5);
+	box-shadow: 1px 2px px rgba(0,0,0,.5);
 }
 #midContent{
-	width: 100%;
-	max-width: 900px;
-	padding-top: 100px;
+	width: 95%;
+	max-width: 950px;
+	padding-top: 80px;
 	height: 655px;
-	background-color: rgba(219, 219, 219, 1);
-}
-#lowerContent{
-	width: 100%;
-	max-width: 900px;
-	height: 600px;
-}
-#weblogo{
-	width: 600px;
-	height: 200px;
 	background-color: ;
-	border-style: solid;
-	border-color: rgba(219, 219, 219, 1);
-	border-solid-right: 5px;
-	border-solid-left: 5px;
-	border-solid-top: 5px;
-	border-solid-bottom: 5px;
-}
-#spinwrap{
-	padding-top: px;
-	width: 100px;
-	height: 80px;
-	margin-left: 20px;
-	background-color: ;
-	float: left;
-	-webkit-animation: fade 3.5s;
-	-webkit-animation-fill-mode: both;
-}
-#spin{
-	width: 80px;
-	margin-bottom: -100px;
-	margin-left: 10px;
-}
-#spin1{
-	margin-bottom: px;
-	margin-left: 0px;
-	width: 110px;
 }
 #jonPic{
 	width: 300px;
-	float: left;
 	margin-top: 120px;
-	-webkit-animation: fade 2.5s;
+	-webkit-animation: fade 3s;
 	-webkit-animation-fill-mode: both;
 }
 #jbLogo{
-	width: 200px;
-	margin-top: 2px;
-}
-.rotating {
-  -webkit-animation: rotating 5s linear infinite;
-  -moz-animation: rotating 5s linear infinite;
-  -ms-animation: rotating 5s linear infinite;
-  -o-animation: rotating 5s linear infinite;
-  animation: rotating 5s linear infinite;
-}
-.rotating2 {
-  -webkit-animation: rotating 8s linear infinite;
-  -moz-animation: rotating 8s linear infinite;
-  -ms-animation: rotating 8s linear infinite;
-  -o-animation: rotating 8s linear infinite;
-  animation: rotating 8s linear infinite;
-}
-#jbCenter{
-	max-width: 420px;
-	margin-left: 0px;
-	margin-top: 0px;
-	-webkit-animation: fade 2.5s;
+	width: 250px;
+	margin-top: 10px;
+	-webkit-animation: fade 3s;
 	-webkit-animation-fill-mode: both;
 }
-#jbSpin{
-	max-width: 600px;
-	margin-left: px;
-	margin-top: -500px;
-	float: left;
+@-webkit-keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
-#spinWrapMain{
-	max-width: 600px;
-	max-height: 600px;
-	padding-top: 150px;
+#navWrap{
+	height: 60px;
+	max-width: 480px;
+	border-bottom-color: rgba(219, 219, 219, 1);
+	border-top-color: rgba(219, 219, 219, 1);
+	border-width: 3px 0px 3px 0px;
+	border-style: solid; 
 }
 /* nav stuff */
 nav{
- margin: 18px;
- text-indent: 20px;
- float: right;
+ text-indent: 35px;
+ padding-top: 15px;
 }
 nav ul li{
  float: left;
@@ -202,17 +142,16 @@ nav ul li a{
  padding: 10px 20px;
  border-left: 2px solid;
  border-left: none;
- font-size: 20px;
+ font-size: 25px;
  font-family: 'Muli', sans-serif;
  text-decoration: none;
- -webkit-animation: fade 2.5s;
+ -webkit-animation: fade 2s;
  -webkit-animation-fill-mode: both;
 }
 nav ul li a:hover{
  background-color: rgba(219, 219, 219, 1);
- color: black;
- -webkit-animation: fade 4s;
- -webkit-animation-fill-mode: both;
+ color: #383838;
+
 }
 @-webkit-keyframes fade {
     from {
@@ -223,39 +162,8 @@ nav ul li a:hover{
         opacity: 1;
     }
 }
-@-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@media screen and (max-width: 850px){
+
+@media screen and (max-width: 870px){
 h2{
 	color: white;
 	padding-top: 180px;
@@ -265,56 +173,41 @@ h2{
 	-webkit-animation: fade 0.8s;
 	-webkit-animation-fill-mode: both;
 }
-h3{
-	font-size: 70px;
-}
 p{
 	float: none;
-	margin-top: 50px;
-}
-#jonPic{
-	float: none;
-	width: 350px;
-}
-#topContent{
-	height: 400px;
-}
-#midContent{
-	height: 920px;
-	padding-top: 0px;
-}
-}
-@media screen and (max-width: 600px){
-h2{
-	font-size: 60px;
-}
-h3{
-	font-size: 50px;
-
-}
-p{
-	width: 95%;
-	max-width: 540px;
-	font-size: 35px;
 	margin-top: 100px;
-	margin-bottom: 100px;
+}
+nav{
+	text-indent: none;
+}
+nav ul li{
 	float: none;
+	margin-top: 30px;
+	width: ;
+}
+nav ul li a{
+ color: white;
+ background-color: #448ccb;
+ width: 95%;
+ padding: 10px 120px;
+ border-left: 2px solid;
+ border-left: none;
+ font-size: 25px;
+ font-family: 'Muli', sans-serif;
+ text-decoration: none;
+ -webkit-animation: fade 2.5s;
+ -webkit-animation-fill-mode: both;
+}
+#navWrap{
+	width: 100%;
+	height: 200px;
+	margin-left: -40px;
+	border-style: none;
 }
 #midContent{
-	width: 100%;
-	max-width: 900px;
-	height: 1100px;
+	min-height: 1300px;
 }
-#jonPic{
-	width: 350px;
-	margin-top: 120px;
-	float: none;
+#contact{
+	padding: 10px 109px;
 }
-#weblogo{
-	width: 380px;
-	height: 170px;
-}
-}
-@media screen and (min-height: 2000px){
-
 }
